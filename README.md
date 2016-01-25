@@ -1,2 +1,2 @@
 # My-Projects
-Projects created through the FreeCodeCamp curriculum (aka ziplines)
+Projects created through the FreeCodeCamp curriculum.
