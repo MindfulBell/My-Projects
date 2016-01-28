@@ -1,4 +1,5 @@
 //TIMER made for FreeCodeCamp
+//Riddled with poor code, global variables aplenty, one of my weaker efforts. 
 
 $(document).ready(function (){
   
@@ -11,17 +12,17 @@ $(document).ready(function (){
     // 4. get a new master total secs value for either break or timer 
     // basically, account for all changes to the timer/break
   
-  breakNum = parseInt($('#break-num').html());
-  timerNum = parseInt($('#timer-num').html());
-  seconds = 0;
-  countSecs = 59;  
-  countTotalSecs = (timerNum * 60);
+  var breakNum = parseInt($('#break-num').html());
+  var timerNum = parseInt($('#timer-num').html());
+  var seconds = 0;
+  var countSecs = 59;  
+  var countTotalSecs = (timerNum * 60);
   
   $('#break-plus').click(function (){    
     breakNum += 1;
     seconds = 0;
     countSecs = 59;
-    breakTotalSecs = (breakNum * 60);
+    var breakTotalSecs = (breakNum * 60);
     timerIsRunning = false;
     $('#break-num').text(breakNum);   
     timerNum = parseInt($('#timer-num').html());
@@ -29,7 +30,6 @@ $(document).ready(function (){
     $('#timer-start').css("background-color", "maroon");
     $('#timer-start').css("color", "white");
     clearInterval(myInterval);
-    
   }); 
   
   $('#break-minus').click(function (){
@@ -40,7 +40,7 @@ $(document).ready(function (){
     }
     seconds = 0;
     countSecs = 59;
-    breakTotalSecs = (breakNum * 60);
+    var breakTotalSecs = (breakNum * 60);
     timerIsRunning = false;
     $('#break-num').text(breakNum);    
     timerNum = parseInt($('#timer-num').html());
