@@ -1,0 +1,376 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+li {
+  transition: all .3s;
+  text-align: center;
+}
+
+.navbar-brand {
+  padding-left: 30px;
+}
+
+.nav li:hover {
+  box-shadow: inset 0px 0px 8px black;
+}
+
+.nav {
+  padding-right: 30px;
+}
+
+.main-buttons {
+  background-color: white;
+}
+
+#nav-buttons li {
+  height: 10px;
+  font-size: 15px;
+  margin: 8px 10px 0px 10px;
+  display: block;
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mainHeading h1 {
+  font-size: 4.5em;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+  padding-top: 100px;
+}
+
+.tagline h4 {
+  font-size: 2em;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+}
+
+.underline {
+  border-bottom: 2px solid white;
+  width: 50%;
+  margin: 45px auto;
+  box-shadow: 1px 1px 1px black;
+}
+
+#top-buttons {
+  margin-top: 50px;
+}
+
+.btn-grp {
+  display: block;
+  text-align: center;
+}
+
+.btn-grp a {
+  color: #444;
+  box-shadow: 2px 2px 2px black;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-grp a:hover {
+  background-color: #444;
+  box-shadow: inset 0px 0px 2px #444;
+  text-decoration: none;
+}
+
+.btn-grp i {
+  padding-right: 8px;
+}
+
+.img-holder {
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 150px;
+  transition: all .5s ease;
+}
+
+.page-titles {
+  color: white;
+  padding-top: 150px;
+  text-align: center;
+  font-size: 4em;
+  text-shadow: 0px 0px 6px black;
+}
+
+#about-title {
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 3em;
+  text-shadow: 3px 3px 6px black;
+}
+
+.img-holder {
+  width: 200px;
+}
+
+#about {
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.about-info {
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.about-info p {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+}
+
+#portfolio {
+  width: 100%;
+  text-align: center;
+  padding: 80px 20px 0px 20px;
+}
+
+.port-entry {
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  box-shadow: 0 0 8px black;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.description {
+  vertical-align: middle;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  transition: all .4s ease;
+  color: white;
+  border-radius: 4px;
+  padding-top: 50px;
+}
+
+.description:hover {
+  opacity: .8;
+  height: 100%;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+#img1 {
+  background-image: url('https://www.dropbox.com/s/5bv7wp0yuv5bej3/Simon-Game.png?raw=1');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#img2 {
+  background-image: url('https://www.dropbox.com/s/60bimiypjy8lzli/Tic-Tac-Toe.png?raw=1');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#img3 {
+  background-image: url('https://www.dropbox.com/s/sc9bbc51uk4y3bq/Calculator.png?raw=1');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#img4 {
+  background-image: url('https://www.dropbox.com/s/4q2ngv9zuxfazel/Camper-News.png?raw=1');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#img5 {
+  background-image: url('https://www.dropbox.com/s/kfz3f0fs0ml598j/Twitch-API.png?raw=1');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#img6 {
+  background-image: url('https://www.dropbox.com/s/vsiafpvyy2959no/Wikipedia.png?raw=1');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.portfolio-container-bot {
+  margin-top: 25px;
+}
+
+.contact-info {
+  float: left;
+}
+
+.contact-info h1 {
+  color: #FFFFCC;
+  font-size: 4em;
+}
+
+.vert-buttons {
+  margin-top: 50px;
+  float: right;
+}
+
+.vert-buttons a {
+  color: #444;
+  display: block;
+  margin: 10px;
+  border: 1px solid #FFFFCC;
+  box-shadow: 2px 2px 2px black;
+  transition: all 0.3s ease 0s;
+}
+
+.vert-buttons a:hover {
+  background-color: #E6B85C;
+  box-shadow: inset 0 0 2px black;
+  transition: all 0.3s ease 0s;
+}
+
+.vert-buttons i {
+  padding-right: 8px;
+}
+
+#footer a {
+  color: #E6B85C;
+  padding: 5px;
+}
+
+#footer {
+  padding-top: 10px;
+  background-color: #444;
+  text-align: center;
+}
+
+#footer p {
+  color: #999;
+}
+
+
+section.module.content {
+  width: 60%;
+  margin: 0 auto;
+  height: 550px;
+  background-color: white;
+  box-shadow: 12px 5px 24px 0px rgba(0, 0, 0, 0.31), -12px 5px 24px 0px rgba(0, 0, 0, 0.31);
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+
+section.module.parallax {
+  margin: 0 auto;
+  width: 60%;
+  height: 500px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  box-shadow: 12px 5px 24px 0px rgba(0, 0, 0, 0.31), -12px 5px 24px 0px rgba(0, 0, 0, 0.31);
+}
+
+section.module.parallax-1 {
+  background-image: url('https://www.dropbox.com/s/s32cipq4izkbsqz/BW%20Yosemite%203.jpg?raw=1');
+  height: 600px;
+  background-position: 0 25%;
+}
+
+section.module.parallax-2 {
+  background-image: url('https://www.dropbox.com/s/mgpb1pnu7phx7sn/Halloween-Wagon-Wheel.jpg?raw=1');
+
+}
+
+section.module.parallax-3 {
+  background-image: url('https://www.dropbox.com/s/rn8ee0ydso6f470/BW%20Swing.jpg?raw=1');
+
+}
+
+section.module.parallax-4 {
+  background-image: url('https://www.dropbox.com/s/gjc8toy9e4ylrnk/Bridge%20Drops.jpg?raw=1');
+
+/*   background-size: contain; */
+
+}
+
+#bot-section {
+  height: 300px;
+  text-align: center;
+}
+
+#bot-buttons {
+  margin-top: 50px;
+}
+
+#email {
+  margin-top: 50px;
+  font-size: 2em;
+}
+@media (max-width: 1665px) {
+  .port-entry {
+    width: 250px;
+    height: 175px;
+  }
+}
+@media (max-width: 1410px) {
+  .port-entry {
+    width: 175px;
+    height: 125px;
+  }
+}
+@media (max-width: 980px) {
+
+  section.module.parallax ,
+  section.module.content {
+    width: 100%;
+  }
+  .mainHeading h1 {
+    font-size: 2.5em;
+  }
+  .underline {
+    margin: 10px auto;
+  }
+  .btn-grp {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .main-buttons {
+    display: block;
+    margin-top: 5px;
+  }
+  #email {
+    margin-bottom: -40px;
+  }
+}
+
+@media (max-width: 733px) {
+  #about {
+    font-size: .8em;
+  }
+}
+
+@media (max-width: 560px) {
+  .btn-primary {
+    width: 150px;
+    margin: 5px auto;
+  }
+  .title {
+    padding-top: 50px;
+  }
+  #portfolio .port-entry {}
+  #email {
+    font-size: 1.3em;
+  }
+}

@@ -1,0 +1,156 @@
+
+body {
+  background-image: url('http://www.myfreetextures.com/wp-content/uploads/2014/10/seamless-wood-planks-5.jpg');
+  font-family: 'Quicksand', sans-serif;
+}
+#board {
+  position: relative;
+  background-color: #00001a;
+  height: 650px;
+  width: 650px;
+  margin: 0 auto;
+  border-radius: 100%;
+  box-shadow: 0px 0px 20px black;
+}
+.sim-button {
+  display: inline-block;
+  height: 295px;
+  width: 295px;
+  left: 28.5px;
+  top: 28.5px;
+  position: relative;
+  cursor: pointer;
+}
+#top-left-green {
+  background-color: green;
+  border-top-left-radius: 100%;
+}
+#bot-left-yel {
+  background-color: #e4e600;
+  border-bottom-left-radius: 100%;
+}
+#top-right-red {
+  border-top-right-radius: 100%;
+  background-color: #cc0000;
+}
+#bot-right-blue {
+  border-bottom-right-radius: 100%;
+  background-color: #0052cc;
+}
+#inner-circle {
+  border: 15px solid #00001a;
+  z-index: 1;
+  margin-left: -132.5px;
+  left: 49.75%;
+  top: 208px;
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  background-color: white;
+  border-radius: 100%;
+}
+#title {
+  text-align: center;
+  padding-top: 20px;
+}
+.small-btn {
+  position: relative;
+  top: 10px;
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  margin: auto;
+  border-radius: 100%;
+  border: 2px solid #00001a;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 2px 2px 3px;
+}
+#start-button:active, #strict:active {
+  box-shadow: inset 2px 2px black;
+}
+#start-button p, #strict p {
+  position: relative;
+  padding-top: 10px;
+  cursor: auto;
+  left: -9px;
+}
+#strict {
+  background-color: yellow;
+  top: -14px;
+  left: 70px;
+  transition: all .5s;
+}
+#count {
+  height: 35px;
+  line-height: 35px;
+  width: 60px;
+  background-color: black;
+  border-radius: 8px;
+  margin-left: 15px;
+  margin-top: 10px;
+  float: left;
+  border: 2px solid red;
+  text-align: center;
+  font-family: 'VT323', sans-serif
+}
+#count-num {
+  display: inline-block;
+  color: red;
+  vertical-align: middle;
+  font-size: 1.5em;
+}
+.ho-btn, #on-off {
+  height: 40px;
+  width: 100px;
+  background-color: black;
+  border-radius: 8px;
+  margin: 20px 73px 0px 73px;
+  cursor: pointer;
+}
+#reset {
+  background-color: #47d147;
+  height: 20px;
+  width: 70px;
+  color: black;
+  text-align: center;
+  margin: -10px auto 0px auto;
+  box-shadow: inset 0px 0px 5px white;
+  transition: all .5s;
+}
+#reset:hover {
+  box-shadow: inset 0px 0px 5px black;
+}
+.switch {
+  height: 37px;
+  width: 45px;
+  background-color: #1aa3ff;
+  border-radius: 8px;
+  border: 1px solid black;
+  transition: all 1s;
+}
+.special1 {
+  display: inline;
+  margin-left: 75px;
+}
+.special2 {
+  display: inline;
+  margin-left: 42px;
+}
+#win-message{
+  position: absolute;
+  z-index: 2;
+  height: 150px;
+  width: 300px;
+  background-color: white;
+  border-radius: 12px;
+  border: 6px solid #1aa3ff;
+  text-align: center;
+  left: -31px;
+  top: 20px;
+  display: none;
+}
+#win-message p {
+  font-size: 2em;
+  padding-top: 20px;
+}
