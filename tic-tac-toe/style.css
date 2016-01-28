@@ -1,0 +1,125 @@
+body {
+  background-color: #D3FAD6;
+  font-family: 'Slabo 27px', serif;
+}
+
+#title h1 {
+  text-align: center;
+  font-size: 5em;
+  color: #C3C48D;
+  text-shadow: 2px 2px 5px black;
+}
+
+#board-holder {
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+  padding-top: 30px;
+  text-align: center;
+  border-radius: 4px;
+
+}
+
+.game-space {
+  height: 100px;
+  width: 100px;
+  background-color: #C3C48D;
+  display: inline-block;
+  color: #928C6F;
+  position: relative;
+  vertical-align: top;
+  box-shadow: inset 0px 0px 8px 4px #928C6F;
+  transition: all .25s ease;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.game-space:hover {
+  box-shadow: inset 0px 0px 8px 4px #EDEBA0;
+}
+
+#space1 {
+  border-bottom: 3px solid #D3FAD6;
+}
+#space2 {
+ border-bottom: 3px solid #D3FAD6;
+}
+#space3 {
+border-bottom: 3px solid #D3FAD6;
+}
+#space4 {
+ border-bottom: 3px solid #D3FAD6;
+}
+#space5 {
+  border-bottom: 3px solid #D3FAD6;
+}
+#space6 {
+ border-bottom: 3px solid #D3FAD6;
+}
+
+.game-space-p {
+  position: relative;
+  top: 15px;
+  left: 2px;
+  font-size: 50px;
+  text-shadow: 0px 4px 2px #D3FAD6;
+}
+
+#X-or-O, #first-or-second {
+  margin: 25px auto;
+  width: 250px;
+  height: 85px;
+  background-color: #D0FFCE;
+  border: 1px solid #CBEFB6;
+  border-radius: 75px;
+  text-align: center;
+  color: black;
+  box-shadow: inset 0px 0px 4px black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: none;
+  
+}
+
+button {
+  height: 35px;
+  width: 50px;
+  font-size: 20px;
+  color: #928C6F;
+  background-color: #C3C48D;
+  border: none;
+  border-radius: 100px; 
+  outline: none;
+  transition: all .25s ease;
+}
+
+
+button:hover {
+  background-color: #273B09;
+  color: #B9FFB7;
+  
+}
+
+.end-game {
+  margin: 25px auto;
+  width: 250px;
+  height: 85px;
+  background-color: #273B09;
+  border: 1px solid #CBEFB6;
+  border-radius: 75px;
+  text-align: center;
+  color: #B9FFB7;
+  box-shadow: inset 0px 0px 4px black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 218px;
+  z-index: 1;
+  display: none;
+}
+
+.end-game h4 {
+  font-size: 2em;
+  padding-top: 15px
+}
