@@ -1,0 +1,1 @@
+Filtering search utilizing TWITCH API. Exercise for FreeCodeCamp.
