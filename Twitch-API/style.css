@@ -1,0 +1,129 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: black;
+}
+
+#title {
+  text-align: center;
+  color: #75B9BE;
+  text-shadow: 0px 0px 12px, 0px 0px 6px black;  
+}
+
+h1 {
+  font-size: 6em;
+  margin-bottom: 30px;
+}
+.nav li {
+  width: 33.33%;
+  text-align: center;
+  background-color: black;
+  font-weight: bold;
+  font-size: 1.5em; 
+ 
+}
+.nav-tabs li a {
+  transition: all .5s ease;
+  color: #75B9BE;
+}
+
+.nav-tabs li a:hover {
+  background-color: black;
+  box-shadow: 0 0 16px 2px white;
+  border-color: black;
+}
+
+.nav-tabs li.active a, .nav-tabs li.active a:focus {
+  background-color: white;
+  color: black;
+  border-color: #75B9BE;
+}
+
+#search-bar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 60px;
+  background-color: black;
+  font-size: 1.5em;
+  color: #75B9BE;
+  transition: all .5s ease;
+  box-shadow: 0 0 12px 2px white;
+  border: none;
+}
+
+.active a {
+  background-color: red;  
+}
+
+#search-bar:focus {
+  border-color: #75B9BE;
+  box-shadow: 0 0 2px white;
+  background-color: white;
+}
+
+#users {
+  text-align: center;
+  margin-bottom: 100px;
+  
+}
+
+.user-names {
+  margin: 18px;
+  transition: all .2s;
+  height: 70px; 
+  list-style-type: none;
+  font-size: 1.4em;
+  padding-left: 60px;
+}
+
+.userNameText {
+  padding-top: 20px;
+  padding-left: px;
+  color: white;
+  text-shadow: 0 0 2px black;
+  font-size: 1.2em;
+}
+.logos {
+  height: 60px;
+  padding-top: 10px;
+  display: inline; 
+  float: right;
+  padding-right: 12px;  
+}
+
+.streamOn {
+  margin: 4px;
+
+  opacity: .9;
+  transition: all .5s ease;
+  box-shadow: 0 0 16px 2px #73BA9B;
+}
+
+.streamOn:hover {
+  opacity: 1;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #73BA9B;
+}
+
+.streamOff {
+  margin: 4px;
+  opacity: .9;
+  transition: all .5s ease;
+  box-shadow: 0 0 16px 2px #BA2D0B;  
+}
+
+.streamOff:hover {
+  opacity: 1;
+  cursor: pointer;
+   border-radius: 15px; 
+  background-color: #BA2D0B;
+}
+
+.stream-info {
+  color: white;
+  width: 80%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 1.4em;
+  box-shadow: 0 0 16px 2px white;  
+}
