@@ -1,0 +1,67 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: #5D576B;
+  text-shadow: 0px 3px 0px black;
+  background-color: #EBF5FF;
+  border-bottom: 20px solid #534B62;
+}
+
+.title h2 {
+  text-shadow: 1px 1px 1px black;
+}
+
+.camper-box {
+  height: 380px;
+  width: 200px;
+  margin: 10px;  
+  display: block;
+  float: left;
+  text-align: center;
+  background-color: #BCD2EE; 
+  transition: all .25s ease; 
+}
+
+
+.camper-box:hover {   
+  box-shadow:  0px 0px 12px 1px black;
+
+}
+
+.camper-box img {
+  height: 190px;
+  width: 190px;  
+}
+
+a {
+  color: #001A66;  
+}
+
+a:hover {
+  color: #8884FF;   
+  text-decoration: none;
+ 
+}
+
+.link-wrap {
+
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 1.1em;
+  text-align: center;
+  padding: 10px 5px 0px 5px;   
+}
+
+.btn {
+  background-color: #8884FF;
+  color: #001A66;
+}
+
+
+
