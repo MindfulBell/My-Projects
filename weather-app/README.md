@@ -1,0 +1,1 @@
+A weather App showcasing HTMl/CSS/Bootstrap/JavaScript/jQuery and an openweather API call. 
