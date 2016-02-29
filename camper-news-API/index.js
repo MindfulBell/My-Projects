@@ -9,7 +9,7 @@ $(document).ready(function(){
     //for each chunk of data, going deeper into lists and organizing user info: headline, image, author name
     $.each(data, function(key, val){   
       
-      //fade in for each div, admittedly, a GARBLED MESS
+      //fade in for each div, admittedly it could be cleaner looking!
       setTimeout(function(){
       $("#test").append("<div class='camper-box animated fadeInUp'><div class='link-wrap'><a href='"
       + val.link + "' target='_blank' class='article-link'><h4>"

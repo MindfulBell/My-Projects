@@ -1,9 +1,9 @@
 //TIMER made for FreeCodeCamp
-//Riddled with poor code, global variables aplenty, one of my weaker efforts. 
+//Riddled with poor code, global letiables aplenty, one of my weaker efforts. 
 
 $(document).ready(function (){
   
-  var timerIsRunning = false;
+
   
   // plus minus button functionality; making sure to do a few things...
     // 1. stop the timer if it is running
@@ -12,17 +12,17 @@ $(document).ready(function (){
     // 4. get a new master total secs value for either break or timer 
     // basically, account for all changes to the timer/break
   
-  var breakNum = parseInt($('#break-num').html());
-  var timerNum = parseInt($('#timer-num').html());
-  var seconds = 0;
-  var countSecs = 59;  
-  var countTotalSecs = (timerNum * 60);
+  let breakNum = parseInt($('#break-num').html());
+  let timerNum = parseInt($('#timer-num').html());
+  let seconds = 0;
+  let countSecs = 59;  
+  let countTotalSecs = (timerNum * 60);
   
   $('#break-plus').click(function (){    
     breakNum += 1;
     seconds = 0;
     countSecs = 59;
-    var breakTotalSecs = (breakNum * 60);
+    let breakTotalSecs = (breakNum * 60);
     timerIsRunning = false;
     $('#break-num').text(breakNum);   
     timerNum = parseInt($('#timer-num').html());
@@ -31,7 +31,6 @@ $(document).ready(function (){
     $('#timer-start').css("color", "white");
     clearInterval(myInterval);
   }); 
-  
   $('#break-minus').click(function (){
     
     breakNum -= 1;
@@ -40,7 +39,7 @@ $(document).ready(function (){
     }
     seconds = 0;
     countSecs = 59;
-    var breakTotalSecs = (breakNum * 60);
+    let breakTotalSecs = (breakNum * 60);
     timerIsRunning = false;
     $('#break-num').text(breakNum);    
     timerNum = parseInt($('#timer-num').html());
@@ -83,7 +82,9 @@ $(document).ready(function (){
     $('#timer-start').css("color", "white");
   });     
   
-  // ticking function; could be much cleaner i think. Only way I could figure to do it. Having a total value of seconds for both timer length and break is what made this possible. 
+  // ticking function; could be much cleaner i think. Only way I could figure to do it. 
+  //Having a total value of seconds for both timer length and break is what made this possible. 
+
   
   function ticking() { 
     

@@ -1,5 +1,5 @@
 //Tic Tac Toe game made for the Free Code Camp curriculum
-//Could not achieve a 'smart computer' using minimax algorithm. On my list of things to do! 
+//Could not achieve a 'smart computer' using minimax algorithm.
 
 //variables 
 
@@ -7,7 +7,15 @@ var playerChoice, compChoice, playerOrder, compOrder, playerTurn;
 var playerMoves = [];
 var compMoves = [];
 //winning combinations to detect win conditions later
-var endingCombos = [[1,2,3],[4,5,6],[7,8,9],[1,4,7],[2,5,8],[3,6,9], [1,5,9], [3,5,7]];
+var endingCombos = [
+[1,2,3],
+[4,5,6],
+[7,8,9],
+[1,4,7],
+[2,5,8],
+[3,6,9], 
+[1,5,9], 
+[3,5,7]];
 
 $(document).ready(function(){   
   preGame();    
